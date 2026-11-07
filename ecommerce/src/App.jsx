@@ -38,7 +38,7 @@ const App = () => {
        onChange={handle}
        name='password'
        />
-      <button onClick={()=>setBtn(!btn)} >{btn ? 'hide' : 'show'}</button>
+      <button type='button' onClick={()=>setBtn(!btn)} >{btn ? 'hide' : 'show'}</button>
       <button type='submit'>Submit</button>
      
        {store && (
